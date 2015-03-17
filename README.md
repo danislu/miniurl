@@ -7,11 +7,13 @@ miniurl is a REST based tinyurl-ish clone.
 To add one do a *POST* to the root with body;
 ```javascript
 {
- "id": "wtf,
- "url": "www.google.com",
- "timeout": 10
+ "id": "wtf,  // id you want to use when getting redirected
+ "url": "www.google.com", // url you want to get redirected to
+ "timeout": 10 // optional. Seconds you want the redirect to be valid for. Will automagically be removed after this has exired.
 }
 ```
+
+
 The result will be '200 OK' if all is well, or '409 Conflict' with body;
 ```javascript
 {
