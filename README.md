@@ -41,11 +41,11 @@ Somehting like this;
 ## Removing some stuff
 
 To remove an entry do a *DELETE* request to the id of the item you want to remove.
-```DELETE /<id>````
+E.g. ```DELETE /<id>```
 The result will be either '204 No Content' indicating that the resource was successfully deleted or '404 Not Found' indicating that the resource was not found.
 
 ## Getting redirected
 
-Do a *GET* request to the id for the url you want to be redirected to
-```GET /<id>```
+Do a *GET* request to the id for the url you want to be redirected to. 
+E.g. ```GET /<id>```
 The result will be a '302 Found' redirecting the request to the url registerd to the given id, or a '404 Not Found' if the resource was not found.
