@@ -34,7 +34,7 @@ router.route('/')
 				key: id
 			});
 		}).catch(function(err){
-			res.status(505).json({
+			res.status(409).json({
 				message: body.id + ' in use'
 			});
 		});
