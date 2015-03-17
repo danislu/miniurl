@@ -2,7 +2,7 @@
 
 miniurl is a REST based tinyurl-ish clone.
 
-## Adding 
+## Adding stuff
 
 To add one do a *POST* to the root with body;
 ```javascript
