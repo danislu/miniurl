@@ -2,7 +2,11 @@
 
 miniurl is a REST based tinyurl-ish clone.
 
+## Add one
+```
 POST /
+```
+with body
 ```javascript
 {
  "id": "wtf,
@@ -10,17 +14,24 @@ POST /
  "timeout": 10
 }
 ```
+
 RESULT:
 200 OK
+
 or
+
 505
+with body:
 ```javascript
 {
 	"message": "wtf in use"
 }
 ```
 
+## Get all
+```
 GET /
+```
 RESULT:
 ```javascript
 [
