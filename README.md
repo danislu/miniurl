@@ -8,7 +8,7 @@ To add one do a *POST* to the root with body;
 ```javascript
 {
  // id you want to use when getting redirected
- "id": "wtf,  
+ "id": "wtf",  
 
  // url you want to get redirected to
  "url": "www.google.com", 
