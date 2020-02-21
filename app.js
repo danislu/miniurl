@@ -5,7 +5,6 @@ var express = require('express'),
 	router = express.Router(),
 	db = require("./db.js");
  
- 
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }));
  
