@@ -39,8 +39,7 @@ router.route('/')
 		});
 	});
 
-
-router.route('/:id')
+router.route('/:id')	
 	.get(function(req, res){
 		var id = req.params.id;
 		db.getItemAsync(id).then(function(obj){
